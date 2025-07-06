@@ -10,7 +10,7 @@ const BestSeller = () => {
         <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-6 place-items-center">
           {products
             .filter((product) => product.inStock)
-            .slice(0, 5)
+            .slice(0, 10)
             .map((product, index) => (
               <ProductCard key={index} product={product} />
             ))}
