@@ -170,7 +170,7 @@ const Navbar = () => {
           </NavLink>
           <NavLink to={"/products"}>All Products</NavLink>
           {user && (
-            <NavLink  to={""} className={({ isActive }) =>
+            <NavLink  to={"/my-orders"} className={({ isActive }) =>
       isActive
         ? "border-b-2 border-green-500 text-green-500 pb-1"
         : "text-gray-600 hover:text-green-500 transition"
