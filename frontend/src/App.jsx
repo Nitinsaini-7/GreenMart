@@ -11,7 +11,6 @@ import ProductDetails from "./pages/ProductDetails";
 import Cart from "./pages/Cart";
 import AddAddress from "./pages/AddAddress";
 import MyOrders from "./pages/MyOrders";
-import SellerLogin from "./components/Seller/SellerLogin";
 import SellerLayout from "./pages/seller/SellerLayout";
 import AddProduct from "./pages/seller/AddProduct";
 import ProductList from "./pages/seller/ProductList";
@@ -19,6 +18,7 @@ import Orders from "./pages/seller/Orders";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import SellerLogin from "./components/seller/SellerLogin";
 
 const App = () => {
   const isSellerPath = useLocation().pathname.includes("/seller");
